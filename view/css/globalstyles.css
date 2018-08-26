@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Righteous");
+* {
+  padding: 0px;
+  margin: 0px; }
+.containerinputs {
+  position: relative; }
+  .containerinputs input {
+    height: 32px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: 0px;
+    padding: 0px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    color: #aaa; }
+  .containerinputs input:focus {
+    border-color: #1e90ff;
+    -webkit-box-shadow: 0px 0px 0px #1e90ff;
+    box-shadow: 0px 0px 0px #1e90ff;
+    color: #1e90ff; }
+  .containerinputs input {
+    padding-left: 30px; }
+  .containerinputs input:focus + svg {
+    color: #1e90ff; }
+  .containerinputs svg {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding: 0px 5px;
+    font-size: 22px;
+    color: #aaa;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+
+button {
+  height: 32px;
+  border: 1px solid #1e90ff;
+  border-radius: 3px;
+  background: #1e90ff;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer; }
+  button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#1e90ff), to(#116bc2));
+    background: -webkit-linear-gradient(#1e90ff, #116bc2);
+    background: -o-linear-gradient(#1e90ff, #116bc2);
+    background: linear-gradient(#1e90ff, #116bc2); }
+
+.mensaje {
+  background: rgba(235, 30, 30, 0.88);
+  display: none;
+  height: 50px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff; }
