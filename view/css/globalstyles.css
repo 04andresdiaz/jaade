@@ -3,6 +3,7 @@
 * {
   padding: 0px;
   margin: 0px; }
+
 .containerinputs {
   position: relative; }
   .containerinputs input {
@@ -62,3 +63,9 @@ button {
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
   color: #fff; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }

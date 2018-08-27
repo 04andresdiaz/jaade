@@ -1,0 +1,76 @@
+@import url("globalstyles.scss");
+html, body {
+  background: #ebe4e4;
+  height: 100%;
+  width: 100%; }
+
+.main {
+  width: 100%;
+  height: calc(100% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+header {
+  background: rgba(40, 44, 52, 0.94);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  header a {
+    width: 15%;
+    text-align: center; }
+  header .title {
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    color: #1673cf;
+    margin-left: 20px; }
+
+.menumain {
+  background: rgba(40, 44, 52, 0.94);
+  width: 15%;
+  height: calc(100% - 0px); }
+  .menumain .profile {
+    position: relative;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50%; }
+  .menumain .profile img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; }
+  .menumain .profile p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center; }
+  .menumain .menu {
+    width: 100%;
+    margin-top: 90px; }
+  .menumain .menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+    white-space: 600; }
+  .menumain .menu ul li span {
+    margin-left: 30px; }
+  .menumain .menu ul li:hover {
+    -webkit-box-shadow: -2px 7px 3px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 7px 3px -4px rgba(0, 0, 0, 0.75);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+  .menumain .menu ul li svg {
+    color: #1673cf; }
+
+.vistamodulos {
+  width: calc(100% - 15%);
+  height: calc(100% - 0px); }
