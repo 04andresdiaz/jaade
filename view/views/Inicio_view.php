@@ -33,15 +33,16 @@
           <ul>
             <li><svg class="fas fa-cogs"></svg><span>Administrar</span></li>
             <li><svg class="fas fa-chart-line"></svg><span>Contabilidad</span></li>
-            <li><svg class="fas fa-dolly"></svg><span>Inventario</span></li>
+            <li><svg class="fas fa-dolly"></svg><span>Productos</span></li>
             <li><svg class="fas fa-cart-arrow-down"></svg><span>Pedidos</span></li>
-            <li><svg class="fas fa-dollar-sign"></svg><span>Ventas</span></li>
+            <li><svg class="fas fa-money-bill-alt"></svg><span>Ventas</span></li>
             <li><svg class="fas fa-database"></svg><span>Backups</span></li>
-            <a href="../../model/cerrarSesion_model.php"><li><svg class="fas fa-back"></svg><span>Cerrar Seion</span></li></a>
+            <a href="../../model/cerrarSesion_model.php"><li><svg class="fas fa-sign-out-alt"></svg><span>Cerrar Seion</span></li></a>
           </ul>
         </nav>
       </div>
       <div class="vistamodulos">
+        <iframe src="productos_view.php" frameborder="0"></iframe>
       </div>
     </div>
   </body>
