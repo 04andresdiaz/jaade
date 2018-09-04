@@ -1,13 +1,14 @@
 <?php
  	session_start();
-  $id = $_SESSION['idUsuario'];
-  $nombre = $_SESSION['nombre'];
+  $idUsuario = $_SESSION['idUsuario'];
+  $nombreApellido = $_SESSION['nombreApellido'];
+  $idRol = $_SESSION['idRol'];
   $rol = $_SESSION['rol'];
-  $nombreUsuario = $_SESSION['nombreUsuario'];
- 	if (isset($id)) {
-
+  if (isset($idUsuario)) {
+    if ($rol != "Administrador") {
+      header("Location: ../../model/cerrarSesion_model.php");
+    }
   }else{
-    header("Location: ../model/cerrarSesion_model.php");
   }
  ?>
 <!DOCTYPE html>
@@ -27,7 +28,7 @@
       <div class="menumain">
         <div class="profile">
           <img src="../img/user-icon.svg" alt="">
-          <p>  <?php echo $nombre; ?> </p>
+          <p>  <?php echo $nombreApellido; ?> </p>
         </div>
         <nav class="menu">
           <ul>

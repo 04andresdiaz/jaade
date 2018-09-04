@@ -53,6 +53,9 @@ body {
   .containerform .containerinputs input {
     width: 100%;
     font-size: 18px; }
+  .containerform .containerinputs select {
+    width: 100%;
+    font-size: 18px; }
   .containerform button {
     margin-top: 25px;
     width: 70%;

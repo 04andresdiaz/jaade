@@ -19,12 +19,32 @@
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
     color: #aaa; }
+  .containerinputs select {
+    height: 32px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: 0px;
+    padding: 0px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    color: #aaa; }
   .containerinputs input:focus {
     border-color: #1e90ff;
     -webkit-box-shadow: 0px 0px 0px #1e90ff;
     box-shadow: 0px 0px 0px #1e90ff;
     color: #1e90ff; }
+  .containerinputs select:focus {
+    border-color: #1e90ff;
+    -webkit-box-shadow: 0px 0px 0px #1e90ff;
+    box-shadow: 0px 0px 0px #1e90ff;
+    color: #1e90ff; }
   .containerinputs input {
+    padding-left: 30px; }
+  .containerinputs select {
     padding-left: 30px; }
   .containerinputs input:focus + svg {
     color: #1e90ff; }

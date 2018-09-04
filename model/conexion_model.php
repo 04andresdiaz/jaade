@@ -1,5 +1,5 @@
 <?php
-  
+
   class Conectar_model{
     public static function conexion(){
       try {

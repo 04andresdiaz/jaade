@@ -29,6 +29,16 @@
             <input class="textfield" type="password" placeholder="Su Contraseña" id="pass" >
             <svg class="fas fa-unlock-alt" aria-hidde="true" ></svg>
           </div>
+          <div class="containerinputs">
+            <select name="rol" id="rol">
+                <optgroup label="Seleccione Su Rol">
+                    <option value="">Seleccione Su Rol</option>
+                    <option value="1">Administrador</option>
+                    <option value="2">Vendedor</option>
+                </optgroup>
+                </select>
+            <svg class="fas fa-users" aria-hidde="true" ></svg>
+          </div>
           <button type="button" name="button" id="btologin">Entrar</button>
           <div class="mensaje" id="mensaje"></div>
         </form>
