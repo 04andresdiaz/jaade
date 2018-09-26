@@ -71,7 +71,12 @@ header{
   }
   & .menu ul li svg{
     color: $colorBlue;
+    left: 0;
+    top: 5px;
+    padding: 0px 5px;
+    font-size: 22px;
   }
+
 }
 .vistamodulos{
   width: calc(100% - 15%);

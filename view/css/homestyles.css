@@ -69,7 +69,11 @@ header {
     -o-transition: .3s;
     transition: .3s; }
   .menumain .menu ul li svg {
-    color: #1673cf; }
+    color: #1673cf;
+    left: 0;
+    top: 5px;
+    padding: 0px 5px;
+    font-size: 22px; }
 
 .vistamodulos {
   width: calc(100% - 15%);

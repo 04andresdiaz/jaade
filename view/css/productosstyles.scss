@@ -1,0 +1,67 @@
+@import url("globalstyles.css");
+$colorBlue: #1673cf;
+  .main{
+    width: 100%;
+    height: calc(100% - 20px);
+
+  }
+.contenedorbto{
+  position: absolute;
+  width: 100%;
+  font-family: 'Rajdhani', sans-serif;
+  height: 100px;
+  z-index: 10;
+  & ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  & .items{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  & .items ul{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    text-align: justify;
+  }
+  & .items:hover ul{
+    display: block;
+    transition: 10s all;
+  }
+  & .items ul li{
+    margin-top: 10px;
+  }
+  & .items ul li:hover{
+    box-shadow: -2px 7px 3px -4px rgba(0,0,0,0.75);
+    transition: .3s;
+  }
+  & .items ul li svg {
+    left: 0;
+    top: 5px;
+    padding: 0px 5px;
+    font-size: 15px;
+    color: $colorBlue;
+    transition: .3s;
+  }
+  & .items svg {
+    color: $colorBlue;
+    font-size: 30px;
+  }
+  & .items span{
+    margin-top: 10px;
+    color: $colorBlue;
+  }
+}
+iframe{
+  border: none;
+  position: absolute;
+  margin-top: 105px;
+  width: 100%;
+  height: 500px;
+}
